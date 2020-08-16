@@ -1,0 +1,29 @@
+{
+  "name": "studyplatform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulohg6/NLK-html-css-js-2edicao.git"
+  },
+  "keywords": [],
+  "author": "Paulo Henrique Gonçalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulohg6/NLK-html-css-js-2edicao/issues"
+  },
+  "homepage": "https://github.com/paulohg6/NLK-html-css-js-2edicao#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2",
+    "sqlite-async": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "description": ""
+}
